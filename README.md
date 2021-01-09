@@ -2,6 +2,8 @@
 A simple script that listens for/forwards Tweets from one or multiple Twitter handles to one or multiple Discord Webhooks.
 Twitter-discord-webhook can also retweet each Tweet from the Twitter account that is authed via the Twitter API. (optional)
 
+https://ko-fi.com/hostinfodev
+
 ## Updates
 
 - v1.0.0: Initial release.
