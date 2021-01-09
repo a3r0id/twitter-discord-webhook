@@ -7,7 +7,7 @@ build_version = ["1", "0", "0"]
 
 # BASIC UPDATE NOTIFICATION
 r = get(("https://raw.githubusercontent.com"
-    "/hostinfodev/twitter-discord-webhook/version"))
+    "/hostinfodev/twitter-discord-webhook/.version"))
 
 current_version = r.text.strip("\n").split(".")
 i = 0
