@@ -76,6 +76,19 @@ Twitter-discord-webhook can also retweet each Tweet from the Twitter account tha
     ```
 - Tweets will be pushed to the Webhook as they are seen by the listenser.
 
+## Building an executable package
+
+- Move main.py to `/build`, ensure dependencies are installed (requirements.txt).
+
+- Ensure `pyinstaller` package is installed.
+
+- Open a command prompt or terminal and run `pyinstaller -F main.py -n Twitter-discord-webhook -i icon.ico`
+
+- [i] Remember to keep your `config.json` in the same directory as your executable before you run it.
+
+
+--------
+
 
 - Enjoy!
 
