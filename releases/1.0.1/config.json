@@ -1,0 +1,15 @@
+{
+    "consumer": "",
+    "consumer_s":"",
+    "token": "",
+    "token_s": "",
+    "only_push_tweets_from_author": true,
+    "retweet": true, 
+    "usernames_to_watch": [
+        "lookner",
+        "elonmusk"
+        ],
+    "webhook_urls": [
+        ""
+    ]
+}
