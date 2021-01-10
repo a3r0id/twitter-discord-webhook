@@ -6,7 +6,7 @@ Twitter-discord-webhook can also retweet each Tweet from the Twitter account tha
 
 ## Updates
 
-- v1.0.0: Initial release.
+- v1.0.1: Initial release.
 
 ## Setup
 

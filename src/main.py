@@ -3,7 +3,7 @@ from tweepy import OAuthHandler, API, StreamListener, Stream
 from discord_webhook import DiscordWebhook
 from requests import get
 
-build_version = ["1", "0", "0"]
+build_version = ["1", "0", "1"]
 
 # BASIC UPDATE NOTIFICATION
 r = get(("https://raw.githubusercontent.com"
@@ -98,7 +98,7 @@ class MyStreamListener(StreamListener):
             #returning False in on_error disconnects the stream
             return False        
 
-# MAKE SURE FEED IS POPULATED W/ @ LEAST 1 VALID USER 
+# MAKE SURE FEED IS POPULATED WITH @ LEAST 1 VALID USER 
 if not len(feed):
     _ = input("[FEED IS EMPTY - NO VALID USERS] Press enter to exit...")
     exit(0)
